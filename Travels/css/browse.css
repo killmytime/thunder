@@ -1,0 +1,60 @@
+div.panel {
+    margin-top: 50px;
+    text-align: center;
+}
+
+div.panel-heading {
+    font-size: 180%;
+}
+
+div.container {
+}
+
+div.row {
+    margin-bottom: 30px;
+}
+
+div.col-md-3 {
+}
+
+div#img-div {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+div#img-div div.col-md-3 {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+div#img-div div.col-md-3 img {
+    padding: 8px;
+    border: solid;
+    border-color: gray;
+    border-width: 3px;
+    border-radius: 5px;
+    background-color: lightgray;
+}
+
+div#pageBT-div {
+    text-align: center;
+}
+
+div#filter-row {
+    margin-bottom: 0px;
+}
+
+div.panel-body {
+    text-align: center;
+}
+
+select.geo-select {
+    width: 200px;
+    font-size: 140%;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    border-radius: 5px;
+    border-color: cadetblue;
+}

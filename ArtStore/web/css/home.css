@@ -1,0 +1,8 @@
+#mycarousel .carousel-inner .item img{
+    width: 60vw;
+    height: 80vh;
+}
+#hotImageContainerSection .thumbnail{
+    background-color: RGB(155,122,122);
+}
+

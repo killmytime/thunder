@@ -1,0 +1,45 @@
+div.search-panel {
+    margin-top: 50px;
+}
+
+div.search-panel h4 {
+    padding-left: 10px;
+}
+
+#filterBT {
+    width: 100px;
+    font-size: 130%;
+}
+
+div.panel-footer {
+    text-align: center;
+}
+
+div.input-descrip {
+    font-size: 130%;
+}
+
+div.input-descrip p {
+    margin-bottom: 0;
+    margin-top: 20px;
+}
+
+div.row {
+    margin-bottom: 30px;
+}
+
+div.row img {
+    padding: 8px;
+    border: solid;
+    border-radius: 5px;
+    border-color: gray;
+    background-color: lightgray;
+}
+
+div.img-row {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: solid;
+    border-width: 1px;
+    border-color: black;
+}

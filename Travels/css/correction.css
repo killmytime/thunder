@@ -1,0 +1,105 @@
+.navbar-board {
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.navBackground {
+    background-color: RGB(11, 16, 19);
+}
+
+.marginTop {
+    margin-top: 100px;
+}
+
+.carousel-inner .item img {
+    width: 100vw;
+    height: 600px;
+}
+
+.logo {
+    font-family: 微软雅黑;
+    font-size: 10pt;
+    color: cyan;
+    position: relative;
+    display: block;
+    padding: 15px 15px;
+}
+
+.sel {
+    width: 210px;
+}
+
+footer {
+    margin-bottom: 20px;
+}
+
+#myCarousel {
+    margin-top: 50px;
+}
+
+div.thumbnail {
+    height: 500px;
+    width: 350px;
+    text-align: center;
+    background-color: lightgray;
+}
+
+section.signInContainer {
+    margin-top: 10%;
+    margin-bottom: 40%;
+}
+
+.input-form {
+    margin-top: 15px;
+    width: 300px;
+}
+
+.Container {
+    padding-top: 50px;
+    padding-left: auto;
+    padding-right: auto;
+    text-align: center;
+}
+
+#otherHot, #otherNewUpload {
+    cursor: pointer;
+}
+
+div.row {
+    padding-right: 100px;
+    padding-left: 100px;
+}
+
+div.image-container {
+    display: none;
+}
+
+img.hot-img {
+    height: 190px;
+    border: solid;
+    border-bottom-width: 1px;
+    border-color: gray;
+    border-radius: 5px;
+    padding: 2px;
+}
+
+div.newimg-div {
+    margin-bottom: 20px;
+}
+
+div.caption {
+    height: 180px;
+}
+
+.hot-img {
+    width: 17vw;
+    height: 50vh;
+}
+
+.textCenter {
+    text-align: center;
+}
+#hotImageContainerSection .thumbnail{
+    background-color: RGB(155,122,122);
+}

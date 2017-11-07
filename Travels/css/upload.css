@@ -1,0 +1,12 @@
+div.panel {
+    margin-top: 50px;
+}
+.panel-footer{
+    text-align: center;
+}
+.press{
+    width: 100px;
+}
+.input-group{
+    width: 85vw;
+}

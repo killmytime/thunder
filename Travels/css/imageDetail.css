@@ -1,0 +1,43 @@
+body {
+    font-size: medium;
+}
+
+section {
+    margin-top: 80px;
+}
+
+div.container {
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-bottom: 100px;
+    padding-left: 100px;
+}
+
+div.information {
+    width: 90vw;
+    padding-right: 200px;
+}
+
+span.like-bt {
+    cursor: pointer;
+    color: #FF0000;
+}
+
+div.like-bt-container {
+    text-align: center;
+}
+
+p.hide {
+    display: inline;
+}
+
+div.like-number-div {
+    text-align: center;
+    font-size: 150%;
+    font-weight: 500;
+    color: #FF0000;
+}
+
+div.like-number-div p {
+    margin-bottom: 0;
+}

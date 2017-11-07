@@ -1,0 +1,86 @@
+@OneToOne
+private  Artwork artwork;
+public Artwork(){}
+public Artwork(int artworkId){this.artWorkId=artworkId;}
+    public Artwork(int artWorkID, int artistID, String imageFileName, String title, String description, String excerpt, int artWorkType, int yearOfWork, int width, int height, String medium, String originalHome, int galleryID, BigDecimal cost, BigDecimal msrp, String artWorkLink, String googleLink ,int clickNumber) {
+    this.artWorkId=artWorkID;
+    this.artistId=artistID;
+    this.imageFileName=imageFileName;
+    this.title=title;
+    this.description=description;
+    this.excerpt=excerpt;
+    this.artWorkType=artWorkType;
+    this.yearOfWork=yearOfWork;
+    this.width=width;
+    this.height=height;
+    this.medium=medium;
+    this.originalHome=originalHome;
+    this.galleryId=galleryID;
+    this.cost=cost;
+    this.msrp=msrp;
+    this.artWorkLink=artWorkLink;
+    this.googleLink=googleLink;
+    this.clickNumber=clickNumber;
+}
+
+
+
+let row=document.createElement("div");
+            row.setAttribute("class","row");
+            let divLeft=document.createElement("div");
+            divLeft.setAttribute("class","col-xs-6 col-md-4");
+            let detailLink=document.createElement("a");
+            detailLink.setAttribute("href","./details.jsp?ArtworkID="+artwork.artworkId);
+            let img=document.createElement("img");
+            img.setAttribute("src","./art-images/works/large/"+artwork.imageFileName+".jpg");
+            img.setAttribute("style","width: 30vw;height: 40vh");
+            let divRight=document.createElement("div");
+            divRight.setAttribute("class","col-xs-12 col-md-8");
+            let title=document.createElement("p");
+            title.appendChild(document.createTextNode(artwork.title));
+            let description=document.createElement("p");
+            description.setAttribute(document.createTextNode(artwork.description));
+            divRight.appendChild(title);
+            divRight.appendChild(description);
+            detailLink.appendChild(img);
+            divLeft.appendChild(detailLink);
+            row.appendChild(divLeft);
+            row.appendChild(divRight);
+            $("#searchResult").appendChild(row);
+
+
+     let artworkID = artwork.artWorkId;
+            let div1 = document.createElement("div");
+            div1.setAttribute("style","margin-top: 20px");
+            div1.setAttribute("class","row");
+            let div2 = document.createElement("div");
+            div2.setAttribute("class","col-md-4");
+            let a = document.createElement("a");
+            a.setAttribute("href","photo.jsp?airWorkID="+artworkID);
+            let img = document.createElement("img");
+            img.setAttribute("src","./art-images/works/large/"+artwork.imageFileName+".jpg");
+            img.setAttribute("alt",artwork.title);
+            img.setAttribute("style","width: 30vw;height: 40vh");
+            a.appendChild(img);
+            div2.appendChild(a);
+            div1.appendChild(div2);
+            let div3 = document.createElement("div");
+            div3.setAttribute("class","col-md-8");
+            let h3 = document.createElement("h3");
+            h3.setAttribute("style","color: orange");
+            h3.appendChild(document.createTextNode(artwork.title));
+            let price = document.createElement("p");
+            price.setAttribute("style","color: white");
+            price.appendChild(document.createTextNode(artwork.cost));
+            let year = document.createElement("p");
+            year.setAttribute("style","color: white");
+            year.appendChild(document.createTextNode(artwork.yearOfWork));
+            let description = document.createElement("p");
+            description.setAttribute("style","color: white");
+            description.appendChild(document.createTextNode(artwork.description));
+            div3.appendChild(h3);
+            div3.appendChild(price);
+            div3.appendChild(year);
+            div3.appendChild(description);
+            div1.appendChild(div3);
+            $("#searchResult").append(div1);

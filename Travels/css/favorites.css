@@ -1,0 +1,27 @@
+div.favorites-panel {
+    margin-top: 50px;
+}
+div.panel-heading h3 {
+    margin-top: 10px;
+}
+div.img-row {
+    border: solid;
+    border-color: black;
+    border-radius: 5px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-width: 1px;
+}
+div.row {
+    margin-bottom: 30px;
+}
+div.row img {
+    padding: 8px;
+    border: solid;
+    border-radius: 5px;
+    border-color: gray;
+    background-color: lightgray;
+}
+a.btn {
+    margin-top: 100px;
+}
